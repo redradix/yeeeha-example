@@ -26,11 +26,12 @@
       </p>
     </header>
     <main>
-      <section class="first-steps">
-        <h2>Primeros pasos</h2>
+      <section>
+        <h2>🦶 Primer paso</h2>
         <p>
-          Deberemos comprobar que en nuestro archivo
-          <code>package.json</code> tiene la dependencia <code>yeeeha</code>
+          Deberemos comprobar que nuestro archivo
+          <code>package.json</code> tiene la <mark>dependencia</mark>
+          <code>yeeeha</code> instalada
         </p>
 
         <pre>
@@ -39,9 +40,23 @@
     "dependencies": {
         "yeeeha": "git+https://github.com/redradix/yeeeha.git"
     },
+}
             </pre
         >
-        <!-- <p>una vez instalada y el usuario interactue con git</p> -->
+      </section>
+      <section>
+        <h2>⌨️ Interacción del usuario con git</h2>
+        <p>
+          Una vez que el usuario comience a utilizar git, se enviará a un
+          <mark>servidor proxi</mark> los siguientes datos:
+          <ul>
+            <li><code>userName</code> --> Usuario de git</li>
+            <li><code>eventName</code> --> Push y pull</li>
+            <li><code>proyectName</code> --> Nombre del repositorio</li>
+            <li><code>date</code> --> Fecha</li>
+            <li><code>hour</code> --> Hora</li>
+          </ul>
+        </p>
       </section>
     </main>
   </body>

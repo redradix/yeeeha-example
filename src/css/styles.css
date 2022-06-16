@@ -57,9 +57,14 @@ h2 {
 }
 
 p,
-pre {
+pre,
+ul {
   font-size: 1.25rem;
   margin: 1rem 0;
+}
+
+li {
+  margin: 16px 0 16px 16px;
 }
 
 mark {
@@ -68,8 +73,7 @@ mark {
 }
 
 code {
-  background-color: var(--white);
-  color: var(--black);
+  border: solid 1px var(--white);
   padding: 0.25rem;
   border-radius: 0.25rem;
 }
