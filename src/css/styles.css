@@ -3,6 +3,7 @@
 :root {
   --black: #282828;
   --white: #fff;
+  --green: #36f5bf;
 }
 
 * {
@@ -19,17 +20,45 @@ body {
 
 header {
   padding: 1.5rem;
+}
+
+.main-title {
   display: flex;
   align-items: center;
 }
 
+main {
+  padding: 1.5rem 5rem;
+}
+
 .logo {
-  width: 40px;
+  width: 2.5rem;
   height: auto;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.purpose {
+  margin-left: 3.5rem;
+  border-left: 0.25rem solid var(--green);
+  padding-left: 1rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  letter-spacing: 0.014rem;
 }
 
 h1 {
-  font-weight: 700;
   font-size: 3.5rem;
-  letter-spacing: 0.014rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
 }
