@@ -4,7 +4,7 @@
     "yeeeha": "git+https://github.com/redradix/yeeeha.git"
   },
   "yeeeha": {
-    "proyectName": "example",
+    "projectName": "example",
     "spreadSheetApiKey": "90fsdfa09f23n4opn8ds7sdf"
   }
 }
