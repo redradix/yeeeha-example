@@ -40,8 +40,6 @@ main {
 
 .purpose {
   margin-left: 3.5rem;
-  border-left: 0.25rem solid var(--green);
-  padding-left: 1rem;
 }
 
 h1,
@@ -58,7 +56,20 @@ h2 {
   font-size: 2rem;
 }
 
-p {
+p,
+pre {
   font-size: 1.25rem;
   margin: 1rem 0;
+}
+
+mark {
+  background: var(--black);
+  color: var(--green);
+}
+
+code {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
 }
