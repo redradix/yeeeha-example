@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 :root {
   --black: #282828;
   --white: #fff;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --black: #282828;
+  --white: #fff;
+  --green: #36f5bf;
+>>>>>>> af74961d5e9a89013c77fa5d988b3fc8838d273e
 }
 
 * {
@@ -12,4 +21,53 @@
 body {
   background-color: var(--black);
   color: var(--white);
+<<<<<<< HEAD
+=======
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  padding: 1.5rem;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 1.5rem 5rem;
+}
+
+.logo {
+  width: 2.5rem;
+  height: auto;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.purpose {
+  margin-left: 3.5rem;
+  border-left: 0.25rem solid var(--green);
+  padding-left: 1rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  letter-spacing: 0.014rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+>>>>>>> af74961d5e9a89013c77fa5d988b3fc8838d273e
 }
