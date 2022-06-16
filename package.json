@@ -1,8 +1,10 @@
 {
+  "version": "0.0.1",
   "dependencies": {
     "yeeeha": "git+https://github.com/redradix/yeeeha.git"
   },
   "yeeeha": {
-    "proyectName": "example"
+    "proyectName": "example",
+    "apiKey": "foo"
   }
 }
