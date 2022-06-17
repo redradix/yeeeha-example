@@ -21,9 +21,11 @@
       </div>
       <p class="purpose">
         <strong>
-          La finalidad de este proyecto es obtener información de los
-          <mark>usuarios</mark> de <mark>git</mark> para observar como se
-          <mark>comportan</mark>
+          La finalidad de este proyecto es obtener información
+          <mark>anonimizada</mark> de las interacciones de los
+          <mark>equipos de trabajo</mark> con <mark>Git</mark> para ayudarles a
+          <mark>mejorar</mark> sus
+          <mark>buenas prácticas con la herramienta</mark>
         </strong>
       </p>
     </header>
@@ -86,8 +88,11 @@
         <pre>
 {
     "dependencies": {
-        "yeeeha": "git+https://github.com/redradix/yeeeha.git"
+      "yeeeha": "git+https://github.com/redradix/yeeeha.git"
     },
+    "yeeeha": {
+      "projectName": "Redradix",
+    }
 }</pre
         >
       </section>
@@ -98,9 +103,16 @@
           <mark>base de datos</mark> la siguiente información:
         </p>
         <ul>
-          <li><code>userName</code> --> Usuario de Git</li>
-          <li><code>event_name</code> --> commit, pull, push o merge</li>
-          <li><code>proyectName</code> --> Nombre del repositorio</li>
+          <li>
+            <code>userName</code> --> <mark>Hash</mark> obtenido a partir del
+            usuario de Git, para que el usuario permanezca en el
+            <mark>anónimato</mark>
+          </li>
+          <li><code>event_name</code> --> commit, push o merge</li>
+          <li>
+            <code>projectName</code> --> Nombre del repositorio (se obtiene del
+            package.json)
+          </li>
           <li><code>day</code> --> Día</li>
           <li><code>hour</code> --> Hora</li>
         </ul>
@@ -112,15 +124,22 @@
       <section>
         <h2>🔍 Observando la información en Google Data Studio</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-          praesentium laboriosam perspiciatis harum, saepe minima iure, omnis
-          voluptas vero aspernatur recusandae voluptatem perferendis ex,
-          adipisci doloribus molestias tempore facere velit.
+          La visualización de los datos obtenidos se realizará mediante un
+          dashboard enfocado a analizar
+          <mark
+            >información agregada perteneciente a la actividad de cada grupo o
+            proyecto.</mark
+          >
+          En un principio, cualquier PM o Lead estará en condiciones de detectar
+          anomalías y/o oportunidades de mejora en el desarrollo de un proyecto.
+          <mark>Responde a preguntas sencillas</mark>
+          como cuáles son los horarios de mayor actividad en el equipo, para
+          evitar proponer ceremonias o reuniones en esas franjas.
         </p>
         <p class="lastParagraph">
           <span class="bigEmoji" aria-hidden="true">👉</span>
           <a
-            href="https://datastudio.google.com/u/0/reporting/996cc45c-007e-48f9-b3a6-878e6c4f88a7/page/xnYvC/edit"
+            href="https://datastudio.google.com/u/0/reporting/996cc45c-007e-48f9-b3a6-878e6c4f88a7/page/xnYvC"
             target="_blank"
           >
             Demo Google Data Studio</a
