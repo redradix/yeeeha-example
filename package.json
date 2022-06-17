@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "dependencies": {
-    "yeeeha": "git+https://github.com/redradix/yeeeha.git#f3f3de57bff858fc322071c27d63285d27e4e836"
+    "yeeeha": "git+https://github.com/redradix/yeeeha.git#c6fa9c391d646bc52cb30209851da2449e93227e"
   },
   "yeeeha": {
     "projectName": "Redradix"
