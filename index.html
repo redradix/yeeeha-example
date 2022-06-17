@@ -20,39 +20,44 @@
         </h1>
       </div>
       <p class="purpose">
-        La finalidad de este proyecto es obtener información de los
-        <mark>usuarios</mark> de <mark>git</mark> para observar como se
-        <mark>comportan</mark>
+        <strong>
+          La finalidad de este proyecto es obtener información de los
+          <mark>usuarios</mark> de <mark>git</mark> para observar como se
+          <mark>comportan</mark>
+        </strong>
       </p>
     </header>
     <main>
       <section>
+        <h2>ℹ️ Flujo de información</h2>
+      </section>
+      <section>
         <h2>🦶 Primer paso</h2>
         <p>
-          Instalar la <mark>dependencia</mark> <code>yeeeha</code> en nuestro proyecto (package.json)
+          Instalar la <mark>dependencia</mark> <code>yeeeha</code> en nuestro
+          proyecto (<mark>package.json</mark>)
         </p>
         <pre>
 {
     "dependencies": {
         "yeeeha": "git+https://github.com/redradix/yeeeha.git"
     },
-}
-            </pre
+}</pre
         >
       </section>
       <section>
         <h2>⌨️ Interacción del usuario con git</h2>
         <p>
           Una vez que el usuario comience a utilizar git, se enviará a un
-          <mark>servidor proxi</mark> los siguientes datos:
-          <ul>
-            <li><code>userName</code> --> Usuario de git</li>
-            <li><code>eventName</code> --> Push y pull</li>
-            <li><code>proyectName</code> --> Nombre del repositorio</li>
-            <li><code>date</code> --> Fecha</li>
-            <li><code>hour</code> --> Hora</li>
-          </ul>
+          <mark>servidor proxy</mark> los siguientes datos:
         </p>
+        <ul>
+          <li><code>userName</code> --> Usuario de git</li>
+          <li><code>eventName</code> --> Push y pull</li>
+          <li><code>proyectName</code> --> Nombre del repositorio</li>
+          <li><code>date</code> --> Fecha</li>
+          <li><code>hour</code> --> Hora</li>
+        </ul>
       </section>
     </main>
   </body>
