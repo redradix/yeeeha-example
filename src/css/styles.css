@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
   --black: #282828;
@@ -80,4 +80,43 @@ code {
   border: solid 0.0625rem var(--white);
   padding: 0.25rem;
   border-radius: 0.25rem;
+}
+
+.informationFlow-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 1rem 0 9.25rem;
+}
+
+.informationFlow-itemContainer {
+  position: relative;
+}
+
+.informationFlow-logoContainer {
+  width: 8.75rem;
+  height: 8.75rem;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.informationFlow-logo {
+  width: 3.75rem;
+  height: auto;
+}
+
+.informationFlow-text {
+  width: 8.75rem;
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+}
+
+.informationFlow-arrow {
+  font-size: 2.5rem;
 }
